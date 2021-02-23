@@ -1,0 +1,33 @@
+.font700 {
+    font-weight: 700;
+}
+
+.colorred {
+    color: red;
+}
+
+.textright {
+    text-align: justify;
+    /*text-align: right;*/
+    /*text-align: center;*/
+}
+
+.decoration {
+    /*text-decoration: underline;*/
+    /*text-decoration: overline;*/
+    text-decoration: line-through;
+}
+
+.shadow {
+    text-shadow: 1px 1px 1px black;
+}
+
+.uppercase {
+    /*text-transform: capitalize;*/
+    text-transform: uppercase;
+    /*text-transform: lowercase;*/
+}
+
+.lineheight {
+    line-height: 20px;
+}

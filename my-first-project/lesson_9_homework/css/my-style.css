@@ -1,0 +1,172 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    background-color: #E8E8E8;
+}
+
+.title {
+    margin-top: 168px;
+    font-family: ArialMT, AdobeInvisFont, MyriadPro-Regular, serif;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.6;
+    fill: #273D46;
+}
+
+.sub-title {
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 721px;
+    font-size: 36px;
+    text-align: center;
+    fill: #273D46;
+}
+
+.block {
+    margin-top: 77px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 841px;
+    height: 561px;
+    background-color: #fff;
+    background-image: url('../img/man.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.main-text {
+    margin-top: 97px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 736px;
+    height: 257px;
+    font-size: 24px;
+    text-align: left;
+    opacity: 0.8;
+    fill: #273D46;
+}
+
+.group {
+    margin-top: 62px;
+    width: 458px;
+    height: 125px;
+    font-size: 20px;
+    text-align: left;
+}
+
+.group li {
+    margin-top: 13px;
+    padding-left: 30px;
+    background: url("../img/check icon@1X.png") left no-repeat;
+}
+
+.group .italic {
+    font-style: italic;
+    color: #80B7B3;
+}
+
+.group .bold {
+    font-weight: bold;
+}
+
+.group .crossed {
+    text-decoration: line-through;
+    fill: #273D46;
+}
+
+.btn {
+    margin-top: 50px;
+    margin-bottom: 137px;
+    width: 199px;
+    height: 44px;
+    background: url("../img/Shape 2@1X.png") 80% no-repeat, url("../img/Rounded Rectangle 1@1X.png") 0 0 no-repeat;
+}
+
+.btn-text {
+    color: #fff;
+    font-size: 14px;
+    text-align: left;
+    margin-top: 17px;
+    margin-left: 30px;
+}
+
+
+
+
+
+

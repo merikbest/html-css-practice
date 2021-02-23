@@ -1,0 +1,39 @@
+.example-block {
+    /*width: 500px;*/
+    max-width: 500px;
+    /*min-width: 500px;*/
+    padding: 10px 30px;
+    border: 1px solid #000;
+}
+
+.example-string {
+    width: 500px;
+    margin: 20px;
+    border: 1px solid #000;
+}
+
+.example-overflow {
+    /*overflow: scroll;*/
+    overflow: auto;
+    max-height: 50px;
+    width: 500px;
+    border: 1px solid #000;
+}
+
+.example-img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.example-display {
+    /*display: block;*/
+    display: inline;
+    border: 1px solid #000;
+}
+
+.example-display-span {
+    display: block;
+    padding: 20px;
+    border: 1px solid #000;
+}
+

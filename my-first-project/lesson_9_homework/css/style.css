@@ -1,0 +1,212 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+body {
+    background: #E8E8E8 url("../img/Ellipse_1_copy.png") 50% 120px no-repeat;
+}
+
+.content {
+    padding: 168px 0 137px 0;
+    max-width: 841px;
+    margin: 0 auto;
+}
+
+.content-top {
+    text-align: center;
+    margin: 0 0 70px 0;
+}
+
+.content-top-category {
+    color: #748187;
+    font-family: Arial sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin: 0 0 20px 0;
+}
+
+.content-top-title {
+    color: #273d46;
+    font-size: 36px;
+    max-width: 725px;
+    margin: 0 auto;
+}
+
+.content-image {
+    box-shadow: 0 15px 65px rgba(15, 16, 16, 0.15);
+    background-color: #fff;
+    padding: 10px;
+    margin: 0 0 85px 0;
+}
+
+.content-image img {
+    max-width: 100%;
+}
+
+.content-bottom {
+    padding: 0 45px;
+}
+
+.content-bottom-text {
+    color: #748187;
+    font-size: 24px;
+    line-height: 40px;
+    margin: 0 0 48px 0;
+}
+
+.content-bottom-text p {
+    margin: 0 0 40px 0;
+}
+
+.content-bottom-text p:last-child {
+    margin: 0;
+}
+
+.content-bottom-info {
+}
+
+.content-bottom-info-list {
+    margin: 0 0 59px 0;
+}
+
+.content-bottom-info-list li {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 0 13px 0;
+    background: url("../img/check icon@1X.png") left no-repeat;
+    padding: 0 0 0 35px;
+}
+
+.content-bottom-info-list li:nth-child(1) {
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+    color: #273d46;
+}
+
+.content-bottom-info-list li:nth-child(2) {
+    color: #80b7b3;
+    font-style: italic;
+}
+
+.content-bottom-info-list li:nth-child(3) {
+    color: #273d46;
+    font-weight: bold;
+}
+
+.content-bottom-info-list li:nth-child(4) {
+    color: #273d46;
+    text-decoration: line-through;
+}
+
+.content-bottom-info-list li:nth-child(4) span {
+    opacity: 0.3;
+}
+
+.content-bottom-info-list li:last-child {
+    margin: 0;
+}
+
+.content-bottom-info-link {
+    height: 44px;
+    padding: 0 30px;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 24px;
+    background-color: #80b7b3;
+    -webkit-box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+.content-bottom-info-link span {
+    padding: 0 32px 0 0;
+    background: url("../img/Shape 2@1X.png") right no-repeat;
+}
+
+.content-bottom-info-link:hover {
+    background-color: #511e23;
+}
+
+.content-bottom-info-link:active {
+    position: relative;
+    top: 3px;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
