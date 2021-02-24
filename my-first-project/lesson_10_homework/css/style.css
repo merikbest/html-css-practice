@@ -1,0 +1,163 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+:focus, :active {
+    outline: none;
+}
+
+a:focus, a:active {
+    outline: none;
+}
+
+nav, footer, header, aside {
+    display: block;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+
+
+body {
+    background-color: #e8e8e8;
+}
+
+.block {
+    padding: 123px 0 137px 0;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.block p {
+    color: #000000;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 40px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin: 0 0 20px 0;
+}
+
+.content-list {
+    margin: 0 0 137px 0;
+}
+
+.content-list li {
+    color: #273d46;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    margin: 0 0 13px 0;
+    background: url("../img/check icon@1X.png") left no-repeat;
+    padding: 0 0 0 35px;
+}
+
+.content-list li:hover {
+    cursor: pointer;
+    background: url("../img/check_icon.png") left no-repeat;
+    color: red;
+}
+
+.content-bottom-info-link {
+    height: 44px;
+    padding: 0 30px;
+    display: inline-block;
+    line-height: 44px;
+    border-radius: 24px;
+    background-color: #80b7b3;
+    -webkit-box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 5px 1px rgba(0, 0, 0, 0.5);
+
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    margin: 0 0 125px 0;
+}
+
+.content-bottom-info-link span {
+    padding: 0 32px 0 0;
+    background: url("../img/Shape 2@1X.png") right no-repeat;
+}
+
+.content-bottom-info-link:hover {
+    background-color: #3a5856;
+}
+
+.content-bottom-info-link:active {
+    background-color: #818181;
+    position: relative;
+    top: 3px;
+    -webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.text-input {
+    border: 1px solid #666666;
+    height: 50px;
+    padding: 0 15px;
+    font-size: 18px;
+    width: 292px;
+}
+
+.text-input:focus {
+    box-shadow: 0 0 20px rgba(127, 190, 213, 0.93);
+}
+
+
