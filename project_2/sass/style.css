@@ -18,12 +18,12 @@ nav {
   margin: 0;
   list-style-type: none;
 }
-.menu .menu_link {
+.menu_link {
   color: #ffffff;
   font-size: 15px;
   font-weight: 300;
 }
-.menu .menu_item {
+.menu_item {
   border-right: 2px dotted black;
   padding-right: 45px;
 }
@@ -34,26 +34,26 @@ nav {
   height: 84px;
   background-color: rgba(0, 0, 0, 0.6);
 }
-.subheader .subheader_logo {
+.subheader_logo {
   display: block;
   max-width: 100%;
   margin-top: 16px;
 }
-.subheader .subheader_official {
+.subheader_official {
   margin-top: 6px;
   opacity: 0.5;
   color: #ffffff;
   font-size: 13px;
   font-weight: 400;
 }
-.subheader .subheader_call {
+.subheader_call {
   margin-top: 19px;
   color: #ffffff;
   font-size: 12px;
   font-weight: 300;
   text-align: right;
 }
-.subheader .subheader_phone {
+.subheader_phone {
   display: block;
   margin-top: 8px;
   color: #ffffff;
@@ -63,7 +63,7 @@ nav {
   text-align: right;
   text-transform: uppercase;
 }
-.subheader .subheader_btn {
+.subheader_btn {
   margin-top: 19px;
   width: 172px;
   height: 46px;
@@ -78,13 +78,17 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
+.subheader_btn:hover {
+  background-image: none;
+  background-color: #ff5656;
+}
 
 .promo {
   padding: 150px 0 135px 0;
   min-height: 800px;
   background: url("../img/main_logo.png") center center/cover no-repeat;
 }
-.promo .promo_header {
+.promo_header {
   margin: 0;
   color: #ffffff;
   font-weight: 700;
@@ -93,7 +97,7 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
-.promo .promo_subheader {
+.promo_subheader {
   margin: 22px 0 0;
   color: #ffffff;
   font-weight: 700;
@@ -102,7 +106,7 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
-.promo .promo_desc {
+.promo_desc {
   margin-top: 23px;
   color: #ffffff;
   font-size: 18px;
@@ -110,7 +114,7 @@ nav {
   line-height: 24px;
   text-align: center;
 }
-.promo .promo_btn {
+.promo_btn {
   display: block;
   margin: 118px auto 0 auto;
   width: 259px;
@@ -124,6 +128,10 @@ nav {
   font-weight: 400;
   text-align: center;
   text-transform: uppercase;
+}
+.promo_btn:hover {
+  background-image: none;
+  background-color: #ff5656;
 }
 
 .reasons {
@@ -190,7 +198,7 @@ nav {
   color: #ffffff;
 }
 
-.reasons .reasons_header {
+.reasons_header {
   margin-top: 38px;
   color: #222222;
   font-size: 38px;
@@ -198,13 +206,13 @@ nav {
   text-align: center;
   text-transform: uppercase;
 }
-.reasons .reasons_card {
+.reasons_card {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 35px;
 }
-.reasons .reasons_card .reasons_card_img {
+.reasons_card_card_img {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -214,16 +222,16 @@ nav {
   background-color: #1eacc7;
   border-radius: 100%;
 }
-.reasons .reasons_card .reasons_card_descr {
+.reasons_card_card_descr {
   width: 343px;
 }
-.reasons .reasons_card .reasons_card_descr .reasons_subtitle {
+.reasons_card_card_descr_subtitle {
   line-height: 21px;
   color: #1eacc7;
   font-size: 17px;
   font-weight: 400;
 }
-.reasons .reasons_card .reasons_card_descr .reasons_text {
+.reasons_card_card_descr_text {
   color: #202020;
   font-size: 15px;
   font-weight: 300;
@@ -307,6 +315,52 @@ nav {
   font-size: 17px;
   font-weight: 300;
   text-align: center;
+}
+
+.require {
+  padding: 68px 0 84px 0;
+}
+.require_block {
+  margin: 33px 0;
+}
+.require_block_nbm {
+  margin-bottom: 0;
+}
+.require_title {
+  color: #1ca8c3;
+  font-size: 22px;
+  font-weight: 400;
+}
+.require_descr {
+  color: #1ca8c3;
+}
+.require_list {
+  list-style-type: none;
+  margin-top: 22px;
+  padding-left: 50px;
+}
+.require_list li {
+  position: relative;
+  margin-bottom: 10px;
+  color: #222222;
+  font-size: 17px;
+  font-weight: 300;
+}
+.require_list li:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -32px;
+  top: 3px;
+  width: 21px;
+  height: 20px;
+  background: url("../icons/chack_blue.png") center center/cover no-repeat;
+}
+.require .warning .require_title {
+  color: #ff5656;
+}
+.require .warning .require_list li:before {
+  background: url("../icons/check_red.png") center center/cover no-repeat;
 }
 
 /*# sourceMappingURL=style.css.map */
